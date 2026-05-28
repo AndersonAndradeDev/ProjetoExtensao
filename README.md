@@ -1,22 +1,89 @@
+# 🏗️ Sistema de Gerenciamento de Estoque - Materiais de Construção
 
-### Hello! I'm Anderson De Andrade 🇧🇷🖖
+> Aplicação Desktop desenvolvida em Java (Swing) para o controle prático, seguro e eficiente do estoque de uma loja de materiais de construção. Projeto desenvolvido para fins acadêmicos utilizando a IDE NetBeans.
 
-[![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/anderson-andrade-b6a4a8313/)
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/anderson.chu/)
-[![Facebook](https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/anderson.andrade.7330763/)
+---
 
+## 📌 Índice
+* [Sobre o Projeto](#-sobre-o-projeto)
+* [Funcionalidades](#-funcionalidades)
+* [Interface Gráfica (UI)](#-interface-gráfica-ui)
+* [Tecnologias Utilizadas](#-tecnologias-utilizadas)
+* [Como Executar o Projeto](#-como-executar-o-projeto)
+* [Autores](#-autores)
 
-![Anderson GitHub stats](https://github-readme-stats.vercel.app/api?username=Chuu-coder&show_icons=true&theme=vision-friendly-dark)
+---
 
-## Learning 📖
+## 💻 Sobre o Projeto
 
-<div style="display: inline_block"><br/>
+O projeto foi idealizado para resolver um problema comum em pequenas e médias lojas de materiais de construção: a falta de controle centralizado sobre as mercadorias disponíveis. 
 
-<img align="center" alt="C#" src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white"/>
-<img align="center" alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-<img align="center" alt="Java" src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white"/>
-<img align="center" alt="Javascript" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
-</div>
+A aplicação conta com um sistema de autenticação seguro e um painel administrativo intuitivo que permite realizar o mapeamento completo de insumos (como pregos, parafusos, ferramentas e cimento), registrando identificação única, quantidades e datas de movimentação.
 
+---
 
-Passionate about technology, seeking to change people's lives through programming.
+## ⚙️ Funcionalidades
+
+* **Sistema de Autenticação (Login):** Tela de acesso restrito para usuários cadastrados garantindo a segurança dos dados.
+* **Módulo de Cadastro de Usuários:** Opção para novos usuários realizarem o cadastro no sistema.
+* **Controle de Estoque (CRUD Completo):**
+  * **Cadastrar:** Adiciona novos produtos especificando Identificação, Nome, Quantidade e Data.
+  * **Excluir:** Remove itens obsoletos ou zerados do fluxo de dados.
+  * **Atualizar:** Permite a edição rápida de informações de itens já existentes.
+  * **Salvar:** Consolida as alterações feitas no banco de dados ou estrutura de persistência.
+* **Painel Personalizado:** Saudação dinâmica ao usuário logado no sistema (Ex: *"Bem-vindo, Anderson"*).
+* **Visualização em Tabela:** Listagem organizada e em tempo real de todas as mercadorias disponíveis no estoque.
+
+---
+
+## 📸 Interface Gráfica (UI)
+
+O sistema foi desenvolvido utilizando componentes visuais customizados para proporcionar uma experiência limpa e profissional ao usuário:
+
+### 1. Tela de Login e Acesso
+*Design moderno e responsivo com campos para credenciais e atalho para novos cadastros.*
+<p align="center">
+  <img src="fts/login.png" alt="Tela de Login" width="600px">
+</p>
+
+### 2. Painel Principal de Estoque
+*Ambiente centralizado para gerenciamento de produtos com tabela dinâmica de controle.*
+<p align="center">
+  <img src="fts/painel.png" alt="Painel de Estoque" width="550px">
+</p>
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+| Tecnologia | Função no Projeto |
+| :--- | :--- |
+| **Java JDK** | Linguagem de programação base do ecossistema. |
+| **Java Swing / AWT** | Construção das telas, tabelas, botões e design da interface gráfica (GUI). |
+| **NetBeans IDE** | Ambiente de desenvolvimento integrado e ferramenta de design de telas. |
+
+---
+
+## 🚀 Como Executar o Projeto
+
+### Pré-requisitos
+Antes de começar, você vai precisar ter instalado em sua máquina:
+* **Java JDK** (Versão 8 ou superior recomendado).
+* Uma IDE de preferência (altamente recomendado o **NetBeans** devido ao layout Swing).
+
+### 🔧 Passo a Passo para Execução
+
+```bash
+# 1. Clone este repositório para a sua máquina local
+$ git clone [https://github.com/seu-usuario/seu-repositorio.git](https://github.com/seu-usuario/seu-repositorio.git)
+
+# 2. Abra o NetBeans IDE
+
+# 3. Vá em File > Open Project (Arquivo > Abrir Projeto) e selecione a pasta clonada
+
+# 4. Localize o arquivo principal de inicialização (geralmente a tela de Login ou a classe Main)
+
+# 5. Clique com o botão direito no projeto e selecione "Run" (Executar) ou pressione F6
+```
+✍️ Autor
+Desenvolvido por Anderson De Andrade — Estudante de Ciência da Computação e Desenvolvedor de Software Java
